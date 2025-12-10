@@ -3,12 +3,15 @@
   "courts": {
     "obergericht": {
       "name": "Obergericht"
+      "abbrev": "OGer"
     },
     "appellationsgericht": {
       "name": "Appellationsgericht"
+      "abbrev": "AppGer"
     },
     "tribunal.cantonal": {
       "name": "Tribunal cantonal"
+      "abbrev": "TC"
     },
     "cour.de.cassation": {
       "name": "Cour de cassation"
@@ -21,21 +24,30 @@
     },
     "kantonsgericht": {
       "name": "Kantonsgericht"
+      "abbrev": "KGer"
     },
     "kassationsgericht": {
       "name": "Kassationsgericht"
+      "abbrev": "KassGer"
     },
     "tribunale.d.appello": {
       "name": "Tribunale d'appello"
     },
-    "kassationssgericht": {
-      "name": "Kassationssgericht"
-    },
     "fcc": {
       "name": "Bundesstrafgericht"
+      "abbrev": "BStGer"
     },
     "fsc": {
-      "name": "Sweizerisches Bundesgericht"
+      "name": "Bundesgericht"
+      "abbrev": "BGer"
+    },
+    "fac": {
+      "name": "Bundesverwaltungsgericht"
+      "abbrev": "BVGer"
+    },
+    "fpc": {
+      "name": "Bundespatentgericht"
+      "abbrev": "BPatGer"
     }
   },
   "jurisdictions": {
@@ -43,7 +55,9 @@
       "name": "Switzerland",
       "courts": {
         "fcc": {},
-        "fsc": {}
+        "fsc": {},
+        "fac": {},
+        "fpc": {}
       }
     },
     "ch:aargau": {
