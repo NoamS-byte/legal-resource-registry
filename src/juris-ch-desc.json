@@ -16,15 +16,13 @@
     "cour.de.cassation": {
       "name": "Cour de cassation"
     },
-    "cour.de.cassation.civile": {
-      "name": "Cour de cassation civile"
-    },
-    "cour.de.cassation.penale": {
-      "name": "Cour de cassation pénale"
-    },
     "kantonsgericht": {
       "name": "Kantonsgericht"
       "abbrev": "KGer"
+    },
+    "verwaltungsgericht": {
+      "name": "Verwaltungsgericht"
+      "abbrev": "VGer"
     },
     "kassationsgericht": {
       "name": "Kassationsgericht"
@@ -36,18 +34,42 @@
     "fcc": {
       "name": "Bundesstrafgericht"
       "abbrev": "BStGer"
+      "variants": {
+        "fr": {
+          "abbrev": TPF {
+          "name": Tribunal pénal fédéral
+        }
+      }
     },
     "fsc": {
       "name": "Bundesgericht"
       "abbrev": "BGer"
+      "variants": {
+        "fr": {
+          "abbrev": TF {
+          "name": Tribunal fédéral
+        }
+      }
     },
     "fac": {
       "name": "Bundesverwaltungsgericht"
       "abbrev": "BVGer"
+      "variants": {
+        "fr": {
+          "abbrev": TAF {
+          "name": Tribunal administratif fédéral
+        }
+      }
     },
     "fpc": {
       "name": "Bundespatentgericht"
       "abbrev": "BPatGer"
+      "variants": {
+        "fr": {
+          "abbrev": TBF {
+          "name": Tribunal fédéral des brevets
+        }
+      }
     }
   },
   "jurisdictions": {
@@ -63,37 +85,37 @@
     "ch:aargau": {
       "name": "Aargau",
       "courts": {
-        "obergericht": {}
+        "OGer": {}
       }
     },
     "ch:appenzell.ausserrhoden": {
       "name": "Appenzell-Ausserrhoden",
       "courts": {
-        "obergericht": {}
+        "OGer": {}
       }
     },
     "ch:basel.landschaft": {
       "name": "Basel-Landschaft",
       "courts": {
-        "obergericht": {}
+        "OGer": {}
       }
     },
     "ch:basel.stadt": {
       "name": "Basel-Stadt",
       "courts": {
-        "appellationsgericht": {}
+        "AppGer": {}
       }
     },
     "ch:bern": {
       "name": "Bern",
       "courts": {
-        "obergericht": {}
+        "OGer": {}
       }
     },
     "ch:fribourg": {
       "name": "Fribourg",
       "courts": {
-        "tribunal.cantonal": {}
+        "TC": {}
       }
     },
     "ch:geneva": {
@@ -105,69 +127,68 @@
     "ch:glarus": {
       "name": "Glarus",
       "courts": {
-        "obergericht": {}
+        "OGer": {}
       }
     },
     "ch:jura": {
       "name": "Jura",
       "courts": {
-        "tribunal.cantonal": {}
+        "TC": {}
       }
     },
     "ch:luzern": {
       "name": "Luzern",
       "courts": {
-        "obergericht": {}
+        "OGer": {}
       }
     },
     "ch:neuchatel": {
       "name": "Neuchatel",
       "courts": {
-        "cour.de.cassation.civile": {},
-        "cour.de.cassation.penale": {}
+        "TC": {}
       }
     },
     "ch:nidwalden": {
       "name": "Nidwalden",
       "courts": {
-        "obergericht": {}
+        "OGer": {}
       }
     },
     "ch:obwalden": {
       "name": "Obwalden",
       "courts": {
-        "obergericht": {}
+        "OGer": {}
       }
     },
     "ch:schaffhausen": {
       "name": "Schaffhausen",
       "courts": {
-        "obergericht": {}
+        "OGer": {}
       }
     },
     "ch:schwyz": {
       "name": "Schwyz",
       "courts": {
-        "kantonsgericht": {}
+        "KGer": {}
       }
     },
     "ch:solothurn": {
       "name": "Solothurn",
       "courts": {
-        "obergericht": {}
+        "OGer": {}
       }
     },
     "ch:st.gallen": {
       "name": "St-Gallen",
       "courts": {
-        "kantonsgericht": {},
-        "kassationsgericht": {}
+        "KGer": {},
+        "VGer": {}
       }
     },
     "ch:thurgau": {
       "name": "Thurgau",
       "courts": {
-        "obergericht": {}
+        "OGer": {}
       }
     },
     "ch:ticino": {
@@ -179,32 +200,32 @@
     "ch:uri": {
       "name": "Uri",
       "courts": {
-        "obergericht": {}
+        "OGer": {}
       }
     },
     "ch:valais": {
       "name": "Valais",
       "courts": {
-        "tribunal.cantonal": {}
+        "TC": {}
       }
     },
     "ch:vaud": {
       "name": "Vaud",
       "courts": {
-        "tribunal.cantonal": {}
+        "TC": {}
       }
     },
     "ch:zug": {
       "name": "Zug",
       "courts": {
-        "obergericht": {}
+        "OGer": {}
       }
     },
     "ch:zurich": {
       "name": "Zurich",
       "courts": {
-        "kassationssgericht": {},
-        "obergericht": {}
+        "KassGer": {},
+        "OGer": {}
       }
     }
   }
