@@ -36,8 +36,8 @@
       "abbrev": "BStGer"
       "variants": {
         "fr": {
-          "abbrev": TPF,
-          "name": Tribunal pénal fédéral
+          "abbrev": "TPF",
+          "name": "Tribunal pénal fédéral"
       }
     },
     "fsc": {
@@ -45,8 +45,8 @@
       "abbrev": "BGer"
       "variants": {
         "fr": {
-          "abbrev": TF,
-          "name": Tribunal fédéral
+          "abbrev": "TF",
+          "name": "Tribunal fédéral"
       }
     },
     "fac": {
@@ -54,8 +54,8 @@
       "abbrev": "BVGer"
       "variants": {
         "fr": {
-          "abbrev": TAF,
-          "name": Tribunal administratif fédéral
+          "abbrev": "TAF",
+          "name": "Tribunal administratif fédéral"
       }
     },
     "fpc": {
@@ -63,8 +63,8 @@
       "abbrev": "BPatGer"
       "variants": {
         "fr": {
-          "abbrev": TBF,
-          "name": Tribunal fédéral des brevets
+          "abbrev": "TBF",
+          "name": "Tribunal fédéral des brevets"
       }
     }
   },
