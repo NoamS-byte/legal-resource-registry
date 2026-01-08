@@ -17,7 +17,8 @@
       },
       "variants": {
         "de": {
-          "abbrev": "IGH, %s"
+          "abbrev": "IGH, %s",
+          "name": "Internationaler Gerichtshof"
         }
       }
     }
