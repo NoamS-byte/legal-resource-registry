@@ -31,6 +31,20 @@
     "tribunale.d.appello": {
       "name": "Tribunale d'appello"
     },
+    "bezirksgericht": {
+      "name": "Bezirksgericht"
+      "abbrev": "BezGer"
+        "fr": {
+          "abbrev": "TA",
+          "name": "Tribunal d'arrondissement"
+     },
+    "Zwangsmassnahmengericht": {
+      "name": "Zwangsmassnahmengericht"
+      "abbrev": "ZMG"
+       "fr": {
+          "abbrev": "TMC",
+          "name": "Tribunal des mesures de contrainte"
+    },
     "fcc": {
       "name": "Bundesstrafgericht"
       "abbrev": "BStGer"
